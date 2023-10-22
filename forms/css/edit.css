@@ -1,0 +1,60 @@
+.edit {
+  width: 100%;
+  min-height: 300px;
+  margin-top: 30px;
+}
+.edit .header-holder {
+  width: 25%;
+  height: 70px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.edit .header-holder .holder-text {
+  font-size: 80px;
+  color: black;
+}
+.edit .form-holder {
+  width: 800px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.edit .form-holder form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.edit .form-holder .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.edit .form-holder .content {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 20px;
+  border: solid;
+  padding-left: 10px;
+}
+.edit .form-holder .btn {
+  width: 60px;
+  height: 40px;
+  background-color: lightblue;
+  border-style: none;
+  color: white;
+  margin-bottom: 20px;
+}

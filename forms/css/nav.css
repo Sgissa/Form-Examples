@@ -1,0 +1,7 @@
+.navi {
+  margin: 0 auto;
+}
+.navi .nav-conatiner {
+  background-color: aqua;
+  width: 100vw;
+}

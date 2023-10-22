@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.navi .nav-holder {
+  width: 100%;
+  height: 50px;
+}
+.navi .nav-holder .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.navi .nav-holder .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.home {
+  background-color: aqua;
+  width: 100%;
+  height: 720px;
+  margin: 0 auto;
+}
+.home .hero-holder {
+  width: 1280px;
+  height: 1080px;
+  background-color: antiquewhite;
+  background-image: url(../images/Form-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .hero-holder .callout-holder {
+  width: 50%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .hero-holder .callout-holder .callout {
+  font-size: 70px;
+  color: white;
+}
+
+.create {
+  width: 100%;
+  min-height: 300px;
+  margin-top: 30px;
+}
+.create .header-holder {
+  width: 25%;
+  height: 70px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.create .header-holder .holder-text {
+  font-size: 80px;
+  color: black;
+}
+.create .form-holder {
+  width: 800px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.create .form-holder form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.create .form-holder .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.create .form-holder .content {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 20px;
+  border: solid;
+  padding-left: 10px;
+}
+.create .form-holder .btn {
+  width: 60px;
+  height: 40px;
+  background-color: lightblue;
+  border-style: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.edit {
+  width: 100%;
+  min-height: 300px;
+  margin-top: 30px;
+}
+.edit .header-holder {
+  width: 50%;
+  height: 70px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.edit .header-holder .holder-text {
+  font-size: 80px;
+  color: black;
+}
+.edit .form-holder {
+  width: 800px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.edit .form-holder form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.edit .form-holder .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.edit .form-holder .content {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 20px;
+  border: solid;
+  padding-left: 10px;
+}
+.edit .form-holder .btn {
+  width: 150px;
+  height: 40px;
+  background-color: lightblue;
+  border-style: none;
+  color: white;
+  margin-bottom: 20px;
+}
+.edit .form-holder button {
+  width: 100px;
+  height: 40px;
+  background-color: lightblue;
+  border-style: none;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.login {
+  width: 100%;
+  min-height: 300px;
+  margin-top: 30px;
+}
+.login .header-holder {
+  width: 50%;
+  height: 70px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.login .header-holder .holder-text {
+  font-size: 80px;
+  color: black;
+}
+.login .info-holder {
+  width: 1280px;
+  height: 600px;
+  background-color: aquamarine;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.login .info-holder .logins {
+  width: 48%;
+  height: 100%;
+  padding-top: 30px;
+}
+.login .info-holder .logins form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+.login .info-holder .logins .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.login .info-holder .logins .content {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 20px;
+  border: solid;
+  padding-left: 10px;
+}
+.login .info-holder .logins .btn {
+  width: 60px;
+  height: 40px;
+  background-color: lightblue;
+  border-style: none;
+  color: white;
+  margin-bottom: 20px;
+}
+.login .info-holder .signups {
+  width: 48%;
+  height: 100%;
+}
+.login .info-holder .signups form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+.login .info-holder .signups .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.login .info-holder .signups .content {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 20px;
+  border: solid;
+  padding-left: 10px;
+}
+.login .info-holder .signups .btn {
+  width: 60px;
+  height: 40px;
+  background-color: lightblue;
+  border-style: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .info-holder {
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
